@@ -1,0 +1,828 @@
+19-Dec-2024 10:47:46.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+19-Dec-2024 10:47:46.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+19-Dec-2024 10:47:46.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+19-Dec-2024 10:47:46.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Dec-2024 10:47:46.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Dec-2024 10:47:46.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Dec-2024 10:47:46.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_261\jre
+19-Dec-2024 10:47:46.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_261-b12
+19-Dec-2024 10:47:46.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Dec-2024 10:47:46.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama
+19-Dec-2024 10:47:46.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+19-Dec-2024 10:47:46.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+19-Dec-2024 10:47:46.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama
+19-Dec-2024 10:47:46.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\temp
+19-Dec-2024 10:47:46.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\logging.properties
+19-Dec-2024 10:47:46.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Dec-2024 10:47:46.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\lib\idea_rt.jar=65033:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\bin
+19-Dec-2024 10:47:46.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+19-Dec-2024 10:47:46.677 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+19-Dec-2024 10:47:46.677 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+19-Dec-2024 10:47:46.677 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+19-Dec-2024 10:47:46.692 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+19-Dec-2024 10:47:47.462 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 10:47:47.808 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1564] milliseconds
+19-Dec-2024 10:47:47.845 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Dec-2024 10:47:47.845 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+19-Dec-2024 10:47:47.859 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\Spring1.xml]
+19-Dec-2024 10:47:49.650 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Dec-2024 10:47:49.834 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+19-Dec-2024 10:47:50.839 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1004 ms
+19-Dec-2024 10:47:50.855 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\Spring1.xml] has finished in [2,995] ms
+19-Dec-2024 10:47:50.855 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\xworkz_commonModule_osama.xml]
+19-Dec-2024 10:47:53.290 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Dec-2024 10:47:54.441 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+19-Dec-2024 10:47:54.662 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.36.Final}
+19-Dec-2024 10:47:54.665 INFO [main] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+19-Dec-2024 10:47:55.119 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+19-Dec-2024 10:47:56.258 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+19-Dec-2024 10:47:58.078 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\xworkz_commonModule_osama.xml] has finished in [7,223] ms
+19-Dec-2024 10:47:58.102 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 10:47:58.111 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10304] milliseconds
+19-Dec-2024 10:48:29.663 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 10:48:29.853 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Dec-2024 10:48:29.885 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [xworkz_commonModule_osama] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Dec-2024 10:48:29.886 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [xworkz_commonModule_osama] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+19-Dec-2024 10:48:29.901 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 10:48:29.956 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 11:14:00.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+19-Dec-2024 11:14:00.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+19-Dec-2024 11:14:00.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+19-Dec-2024 11:14:00.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Dec-2024 11:14:00.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Dec-2024 11:14:00.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Dec-2024 11:14:00.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_261\jre
+19-Dec-2024 11:14:00.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_261-b12
+19-Dec-2024 11:14:00.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Dec-2024 11:14:00.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama
+19-Dec-2024 11:14:00.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+19-Dec-2024 11:14:00.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+19-Dec-2024 11:14:00.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama
+19-Dec-2024 11:14:00.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\temp
+19-Dec-2024 11:14:00.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\logging.properties
+19-Dec-2024 11:14:00.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Dec-2024 11:14:00.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\lib\idea_rt.jar=65292:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\bin
+19-Dec-2024 11:14:00.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+19-Dec-2024 11:14:00.932 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+19-Dec-2024 11:14:00.932 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+19-Dec-2024 11:14:00.932 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+19-Dec-2024 11:14:00.948 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+19-Dec-2024 11:14:01.547 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 11:14:01.873 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1352] milliseconds
+19-Dec-2024 11:14:01.917 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Dec-2024 11:14:01.917 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+19-Dec-2024 11:14:01.932 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\Spring1.xml]
+19-Dec-2024 11:14:03.810 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Dec-2024 11:14:03.994 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+19-Dec-2024 11:14:04.869 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 874 ms
+19-Dec-2024 11:14:04.884 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\Spring1.xml] has finished in [2,951] ms
+19-Dec-2024 11:14:04.884 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\xworkz_commonModule_osama.xml]
+19-Dec-2024 11:14:07.770 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Dec-2024 11:14:09.127 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+19-Dec-2024 11:14:09.388 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.36.Final}
+19-Dec-2024 11:14:09.392 INFO [main] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+19-Dec-2024 11:14:09.957 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+19-Dec-2024 11:14:11.313 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+19-Dec-2024 11:14:13.554 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\xworkz_commonModule_osama.xml] has finished in [8,669] ms
+19-Dec-2024 11:14:13.563 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 11:14:13.595 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [11721] milliseconds
+19-Dec-2024 11:14:24.997 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 11:14:25.206 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Dec-2024 11:14:25.231 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [xworkz_commonModule_osama] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Dec-2024 11:14:25.232 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [xworkz_commonModule_osama] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+19-Dec-2024 11:14:25.244 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 11:14:25.254 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 11:14:35.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+19-Dec-2024 11:14:35.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+19-Dec-2024 11:14:35.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+19-Dec-2024 11:14:35.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Dec-2024 11:14:35.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Dec-2024 11:14:35.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Dec-2024 11:14:35.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_261\jre
+19-Dec-2024 11:14:35.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_261-b12
+19-Dec-2024 11:14:35.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Dec-2024 11:14:35.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama
+19-Dec-2024 11:14:35.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+19-Dec-2024 11:14:35.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+19-Dec-2024 11:14:35.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama
+19-Dec-2024 11:14:35.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\temp
+19-Dec-2024 11:14:35.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\logging.properties
+19-Dec-2024 11:14:35.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Dec-2024 11:14:35.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\lib\idea_rt.jar=65306:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\bin
+19-Dec-2024 11:14:35.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+19-Dec-2024 11:14:35.133 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+19-Dec-2024 11:14:35.133 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+19-Dec-2024 11:14:35.134 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+19-Dec-2024 11:14:35.142 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+19-Dec-2024 11:14:35.755 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 11:14:36.088 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1296] milliseconds
+19-Dec-2024 11:14:36.122 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Dec-2024 11:14:36.123 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+19-Dec-2024 11:14:36.136 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\Spring1.xml]
+19-Dec-2024 11:14:37.894 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Dec-2024 11:14:38.048 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+19-Dec-2024 11:14:38.859 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 811 ms
+19-Dec-2024 11:14:38.870 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\Spring1.xml] has finished in [2,733] ms
+19-Dec-2024 11:14:38.871 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\xworkz_commonModule_osama.xml]
+19-Dec-2024 11:14:41.515 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Dec-2024 11:14:42.709 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+19-Dec-2024 11:14:42.918 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.36.Final}
+19-Dec-2024 11:14:42.921 INFO [main] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+19-Dec-2024 11:14:43.396 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+19-Dec-2024 11:14:44.535 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+19-Dec-2024 11:14:46.445 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\xworkz_commonModule_osama.xml] has finished in [7,573] ms
+19-Dec-2024 11:14:46.449 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 11:14:46.459 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10371] milliseconds
+19-Dec-2024 12:48:28.754 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 12:48:28.951 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Dec-2024 12:48:29.045 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [xworkz_commonModule_osama] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Dec-2024 12:48:29.047 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [xworkz_commonModule_osama] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+19-Dec-2024 12:48:29.097 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 12:48:29.129 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 14:48:03.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+19-Dec-2024 14:48:03.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+19-Dec-2024 14:48:03.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+19-Dec-2024 14:48:03.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Dec-2024 14:48:03.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Dec-2024 14:48:03.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Dec-2024 14:48:03.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_261\jre
+19-Dec-2024 14:48:03.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_261-b12
+19-Dec-2024 14:48:03.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Dec-2024 14:48:03.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama
+19-Dec-2024 14:48:03.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+19-Dec-2024 14:48:03.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+19-Dec-2024 14:48:03.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama
+19-Dec-2024 14:48:03.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\temp
+19-Dec-2024 14:48:03.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\logging.properties
+19-Dec-2024 14:48:03.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Dec-2024 14:48:03.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\lib\idea_rt.jar=49982:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\bin
+19-Dec-2024 14:48:03.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+19-Dec-2024 14:48:03.150 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+19-Dec-2024 14:48:03.150 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+19-Dec-2024 14:48:03.150 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+19-Dec-2024 14:48:03.165 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+19-Dec-2024 14:48:03.814 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 14:48:04.151 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1345] milliseconds
+19-Dec-2024 14:48:04.203 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Dec-2024 14:48:04.203 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+19-Dec-2024 14:48:04.227 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\Spring1.xml]
+19-Dec-2024 14:48:06.637 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Dec-2024 14:48:07.089 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+19-Dec-2024 14:48:08.126 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1037 ms
+19-Dec-2024 14:48:08.142 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\Spring1.xml] has finished in [3,914] ms
+19-Dec-2024 14:48:08.142 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\xworkz_commonModule_osama.xml]
+19-Dec-2024 14:48:11.160 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Dec-2024 14:48:12.405 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+19-Dec-2024 14:48:12.639 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.36.Final}
+19-Dec-2024 14:48:12.645 INFO [main] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+19-Dec-2024 14:48:13.144 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+19-Dec-2024 14:48:14.357 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+19-Dec-2024 14:48:16.574 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\xworkz_commonModule_osama.xml] has finished in [8,432] ms
+19-Dec-2024 14:48:16.598 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 14:48:16.608 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [12455] milliseconds
+19-Dec-2024 15:30:10.576 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 15:30:10.787 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Dec-2024 15:30:10.842 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [xworkz_commonModule_osama] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Dec-2024 15:30:10.844 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [xworkz_commonModule_osama] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+19-Dec-2024 15:30:10.884 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 15:30:10.889 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 15:30:19.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+19-Dec-2024 15:30:19.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+19-Dec-2024 15:30:19.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+19-Dec-2024 15:30:19.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Dec-2024 15:30:19.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Dec-2024 15:30:19.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Dec-2024 15:30:19.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_261\jre
+19-Dec-2024 15:30:19.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_261-b12
+19-Dec-2024 15:30:19.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Dec-2024 15:30:19.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama
+19-Dec-2024 15:30:19.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+19-Dec-2024 15:30:19.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+19-Dec-2024 15:30:19.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama
+19-Dec-2024 15:30:19.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\temp
+19-Dec-2024 15:30:19.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\logging.properties
+19-Dec-2024 15:30:19.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Dec-2024 15:30:19.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\lib\idea_rt.jar=50811:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\bin
+19-Dec-2024 15:30:19.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+19-Dec-2024 15:30:19.937 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+19-Dec-2024 15:30:19.937 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+19-Dec-2024 15:30:19.938 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+19-Dec-2024 15:30:19.947 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+19-Dec-2024 15:30:20.615 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 15:30:20.996 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1421] milliseconds
+19-Dec-2024 15:30:21.039 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Dec-2024 15:30:21.039 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+19-Dec-2024 15:30:21.057 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\Spring1.xml]
+19-Dec-2024 15:30:23.372 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Dec-2024 15:30:23.668 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+19-Dec-2024 15:30:24.965 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1295 ms
+19-Dec-2024 15:30:24.983 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\Spring1.xml] has finished in [3,925] ms
+19-Dec-2024 15:30:24.983 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\xworkz_commonModule_osama.xml]
+19-Dec-2024 15:30:28.539 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Dec-2024 15:30:29.770 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+19-Dec-2024 15:30:30.017 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.36.Final}
+19-Dec-2024 15:30:30.022 INFO [main] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+19-Dec-2024 15:30:30.556 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+19-Dec-2024 15:30:31.873 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+19-Dec-2024 15:30:33.221 INFO [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+19-Dec-2024 15:30:34.203 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\xworkz_commonModule_osama.xml] has finished in [9,220] ms
+19-Dec-2024 15:30:34.206 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 15:30:34.218 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [13221] milliseconds
+19-Dec-2024 15:32:52.158 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 15:32:52.398 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Dec-2024 15:32:52.424 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [xworkz_commonModule_osama] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Dec-2024 15:32:52.425 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [xworkz_commonModule_osama] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+19-Dec-2024 15:32:52.443 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 15:32:52.512 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 15:32:58.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+19-Dec-2024 15:32:58.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+19-Dec-2024 15:32:58.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+19-Dec-2024 15:32:58.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Dec-2024 15:32:58.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Dec-2024 15:32:58.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Dec-2024 15:32:58.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_261\jre
+19-Dec-2024 15:32:58.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_261-b12
+19-Dec-2024 15:32:58.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Dec-2024 15:32:58.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama
+19-Dec-2024 15:32:58.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+19-Dec-2024 15:32:58.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+19-Dec-2024 15:32:58.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama
+19-Dec-2024 15:32:58.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\temp
+19-Dec-2024 15:32:58.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\logging.properties
+19-Dec-2024 15:32:58.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Dec-2024 15:32:58.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\lib\idea_rt.jar=50952:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\bin
+19-Dec-2024 15:32:58.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+19-Dec-2024 15:32:59.001 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+19-Dec-2024 15:32:59.001 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+19-Dec-2024 15:32:59.001 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+19-Dec-2024 15:32:59.007 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+19-Dec-2024 15:32:59.576 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 15:32:59.938 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1265] milliseconds
+19-Dec-2024 15:32:59.975 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Dec-2024 15:32:59.976 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+19-Dec-2024 15:32:59.989 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\Spring1.xml]
+19-Dec-2024 15:33:01.745 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Dec-2024 15:33:01.913 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+19-Dec-2024 15:33:02.947 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1034 ms
+19-Dec-2024 15:33:02.962 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\Spring1.xml] has finished in [2,972] ms
+19-Dec-2024 15:33:02.962 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\xworkz_commonModule_osama.xml]
+19-Dec-2024 15:33:06.291 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Dec-2024 15:33:07.448 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+19-Dec-2024 15:33:07.681 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.36.Final}
+19-Dec-2024 15:33:07.685 INFO [main] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+19-Dec-2024 15:33:08.184 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+19-Dec-2024 15:33:09.414 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+19-Dec-2024 15:33:10.752 INFO [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+19-Dec-2024 15:33:11.757 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\xworkz_commonModule_osama.xml] has finished in [8,794] ms
+19-Dec-2024 15:33:11.764 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 15:33:11.780 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [11842] milliseconds
+19-Dec-2024 15:46:29.256 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 15:46:29.437 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Dec-2024 15:46:29.452 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [xworkz_commonModule_osama] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Dec-2024 15:46:29.453 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [xworkz_commonModule_osama] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+19-Dec-2024 15:46:29.482 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 15:46:29.500 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 15:48:44.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+19-Dec-2024 15:48:44.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+19-Dec-2024 15:48:44.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+19-Dec-2024 15:48:44.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Dec-2024 15:48:44.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Dec-2024 15:48:44.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Dec-2024 15:48:44.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_261\jre
+19-Dec-2024 15:48:44.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_261-b12
+19-Dec-2024 15:48:44.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Dec-2024 15:48:44.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama
+19-Dec-2024 15:48:44.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+19-Dec-2024 15:48:44.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+19-Dec-2024 15:48:44.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama
+19-Dec-2024 15:48:44.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\temp
+19-Dec-2024 15:48:44.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\logging.properties
+19-Dec-2024 15:48:44.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Dec-2024 15:48:44.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\lib\idea_rt.jar=51994:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\bin
+19-Dec-2024 15:48:44.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+19-Dec-2024 15:48:44.463 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+19-Dec-2024 15:48:44.463 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+19-Dec-2024 15:48:44.463 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+19-Dec-2024 15:48:44.478 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+19-Dec-2024 15:48:45.164 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 15:48:45.535 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1396] milliseconds
+19-Dec-2024 15:48:45.584 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Dec-2024 15:48:45.585 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+19-Dec-2024 15:48:45.597 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\Spring1.xml]
+19-Dec-2024 15:48:47.593 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Dec-2024 15:48:47.842 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+19-Dec-2024 15:48:48.994 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1152 ms
+19-Dec-2024 15:48:49.013 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\Spring1.xml] has finished in [3,413] ms
+19-Dec-2024 15:48:49.013 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\xworkz_commonModule_osama.xml]
+19-Dec-2024 15:48:52.392 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Dec-2024 15:48:53.548 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+19-Dec-2024 15:48:53.767 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.36.Final}
+19-Dec-2024 15:48:53.770 INFO [main] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+19-Dec-2024 15:48:54.307 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+19-Dec-2024 15:48:55.599 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+19-Dec-2024 15:48:56.907 INFO [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+19-Dec-2024 15:48:57.809 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\xworkz_commonModule_osama.xml] has finished in [8,796] ms
+19-Dec-2024 15:48:57.813 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 15:48:57.826 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [12290] milliseconds
+19-Dec-2024 15:51:18.342 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 15:51:18.617 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Dec-2024 15:51:18.631 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [xworkz_commonModule_osama] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Dec-2024 15:51:18.631 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [xworkz_commonModule_osama] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+19-Dec-2024 15:51:18.643 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 15:51:18.663 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 18:00:47.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+19-Dec-2024 18:00:47.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+19-Dec-2024 18:00:47.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+19-Dec-2024 18:00:47.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Dec-2024 18:00:47.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Dec-2024 18:00:47.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Dec-2024 18:00:47.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_261\jre
+19-Dec-2024 18:00:47.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_261-b12
+19-Dec-2024 18:00:47.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Dec-2024 18:00:47.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama
+19-Dec-2024 18:00:47.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+19-Dec-2024 18:00:47.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+19-Dec-2024 18:00:47.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama
+19-Dec-2024 18:00:47.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\temp
+19-Dec-2024 18:00:47.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\logging.properties
+19-Dec-2024 18:00:47.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Dec-2024 18:00:47.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\lib\idea_rt.jar=52330:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\bin
+19-Dec-2024 18:00:47.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+19-Dec-2024 18:00:47.772 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+19-Dec-2024 18:00:47.772 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+19-Dec-2024 18:00:47.773 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+19-Dec-2024 18:00:47.778 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+19-Dec-2024 18:00:48.465 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 18:00:48.816 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1439] milliseconds
+19-Dec-2024 18:00:48.857 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Dec-2024 18:00:48.857 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+19-Dec-2024 18:00:48.877 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\Spring1.xml]
+19-Dec-2024 18:00:50.738 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Dec-2024 18:00:50.921 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+19-Dec-2024 18:00:51.863 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 942 ms
+19-Dec-2024 18:00:51.874 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\Spring1.xml] has finished in [2,997] ms
+19-Dec-2024 18:00:51.874 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\xworkz_commonModule_osama.xml]
+19-Dec-2024 18:00:54.649 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Dec-2024 18:00:55.744 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+19-Dec-2024 18:00:56.006 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.36.Final}
+19-Dec-2024 18:00:56.012 INFO [main] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+19-Dec-2024 18:00:56.549 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+19-Dec-2024 18:00:57.886 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+19-Dec-2024 18:00:59.221 INFO [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+19-Dec-2024 18:01:00.098 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\xworkz_commonModule_osama.xml] has finished in [8,224] ms
+19-Dec-2024 18:01:00.102 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 18:01:00.114 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [11297] milliseconds
+19-Dec-2024 21:11:25.507 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 21:11:25.762 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Dec-2024 21:11:25.955 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [xworkz_commonModule_osama] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Dec-2024 21:11:25.959 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [xworkz_commonModule_osama] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+19-Dec-2024 21:11:26.081 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 21:11:26.118 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 21:11:35.393 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+19-Dec-2024 21:11:35.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+19-Dec-2024 21:11:35.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+19-Dec-2024 21:11:35.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Dec-2024 21:11:35.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Dec-2024 21:11:35.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Dec-2024 21:11:35.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_261\jre
+19-Dec-2024 21:11:35.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_261-b12
+19-Dec-2024 21:11:35.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Dec-2024 21:11:35.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama
+19-Dec-2024 21:11:35.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+19-Dec-2024 21:11:35.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+19-Dec-2024 21:11:35.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama
+19-Dec-2024 21:11:35.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\temp
+19-Dec-2024 21:11:35.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\logging.properties
+19-Dec-2024 21:11:35.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Dec-2024 21:11:35.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\lib\idea_rt.jar=57787:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\bin
+19-Dec-2024 21:11:35.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+19-Dec-2024 21:11:35.408 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+19-Dec-2024 21:11:35.408 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+19-Dec-2024 21:11:35.409 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+19-Dec-2024 21:11:35.428 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+19-Dec-2024 21:11:36.020 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 21:11:36.339 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1293] milliseconds
+19-Dec-2024 21:11:36.379 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Dec-2024 21:11:36.380 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+19-Dec-2024 21:11:36.395 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\Spring1.xml]
+19-Dec-2024 21:11:38.609 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Dec-2024 21:11:38.882 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+19-Dec-2024 21:11:40.254 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1372 ms
+19-Dec-2024 21:11:40.277 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\Spring1.xml] has finished in [3,881] ms
+19-Dec-2024 21:11:40.278 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\xworkz_commonModule_osama.xml]
+19-Dec-2024 21:11:43.239 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Dec-2024 21:11:44.293 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+19-Dec-2024 21:11:44.527 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.36.Final}
+19-Dec-2024 21:11:44.530 INFO [main] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+19-Dec-2024 21:11:44.995 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+19-Dec-2024 21:11:46.263 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+19-Dec-2024 21:11:47.642 INFO [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+19-Dec-2024 21:11:47.699 ERROR [main] org.hibernate.hql.internal.ast.ErrorTracker.reportError line 1:95: unexpected token: serName
+19-Dec-2024 21:11:47.700 ERROR [main] org.hibernate.hql.internal.ast.ErrorTracker.reportError line 1:95: unexpected token: serName
+	line 1:95: unexpected token: serName
+		at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:787)
+		at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:319)
+		at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:198)
+		at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:289)
+		at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:188)
+		at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:143)
+		at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:119)
+		at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80)
+		at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:153)
+		at org.hibernate.query.spi.NamedQueryRepository.checkNamedQueries(NamedQueryRepository.java:176)
+		at org.hibernate.internal.SessionFactoryImpl.checkNamedQueries(SessionFactoryImpl.java:574)
+		at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:321)
+		at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467)
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1250)
+		at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:209)
+		at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1171)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:922)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:591)
+		at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702)
+		at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:578)
+		at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530)
+		at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170)
+		at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+		at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1134)
+		at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:986)
+		at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4864)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5173)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:706)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:631)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1830)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:526)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:425)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:843)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+19-Dec-2024 21:11:47.706 ERROR [main] org.hibernate.internal.SessionFactoryImpl.<init> HHH000177: Error in named query: getCountOfName
+	org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token: serName near line 1, column 95 [Select Count(se) FROM com.xworkz.xworkz_commonModule_osama.entity.SignupEntity se Where se.u  serName = :userName]
+		at org.hibernate.hql.internal.ast.QuerySyntaxException.convert(QuerySyntaxException.java:74)
+		at org.hibernate.hql.internal.ast.ErrorTracker.throwQueryException(ErrorTracker.java:93)
+		at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:296)
+		at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:188)
+		at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:143)
+		at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:119)
+		at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80)
+		at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:153)
+		at org.hibernate.query.spi.NamedQueryRepository.checkNamedQueries(NamedQueryRepository.java:176)
+		at org.hibernate.internal.SessionFactoryImpl.checkNamedQueries(SessionFactoryImpl.java:574)
+		at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:321)
+		at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467)
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1250)
+		at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:209)
+		at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1171)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:922)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:591)
+		at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702)
+		at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:578)
+		at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530)
+		at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170)
+		at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+		at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1134)
+		at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:986)
+		at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4864)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5173)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:706)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:631)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1830)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:526)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:425)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:843)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+19-Dec-2024 21:11:47.736 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\xworkz_commonModule_osama.xml] has finished in [7,458] ms
+19-Dec-2024 21:11:47.740 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 21:11:47.747 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [11408] milliseconds
+19-Dec-2024 21:12:45.970 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 21:12:46.173 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Dec-2024 21:12:46.187 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [xworkz_commonModule_osama] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Dec-2024 21:12:46.188 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [xworkz_commonModule_osama] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+19-Dec-2024 21:12:46.206 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 21:12:46.220 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 21:12:53.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+19-Dec-2024 21:12:53.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+19-Dec-2024 21:12:53.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+19-Dec-2024 21:12:53.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Dec-2024 21:12:53.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Dec-2024 21:12:53.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Dec-2024 21:12:53.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_261\jre
+19-Dec-2024 21:12:53.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_261-b12
+19-Dec-2024 21:12:53.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Dec-2024 21:12:53.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama
+19-Dec-2024 21:12:53.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+19-Dec-2024 21:12:53.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+19-Dec-2024 21:12:53.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama
+19-Dec-2024 21:12:53.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\temp
+19-Dec-2024 21:12:53.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\logging.properties
+19-Dec-2024 21:12:53.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Dec-2024 21:12:53.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\lib\idea_rt.jar=57866:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\bin
+19-Dec-2024 21:12:53.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+19-Dec-2024 21:12:53.078 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+19-Dec-2024 21:12:53.078 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+19-Dec-2024 21:12:53.078 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+19-Dec-2024 21:12:53.084 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+19-Dec-2024 21:12:53.990 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 21:12:54.341 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1603] milliseconds
+19-Dec-2024 21:12:54.374 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Dec-2024 21:12:54.374 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+19-Dec-2024 21:12:54.390 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\Spring1.xml]
+19-Dec-2024 21:12:56.440 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Dec-2024 21:12:56.701 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+19-Dec-2024 21:12:57.732 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1031 ms
+19-Dec-2024 21:12:57.748 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\Spring1.xml] has finished in [3,357] ms
+19-Dec-2024 21:12:57.748 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\xworkz_commonModule_osama.xml]
+19-Dec-2024 21:13:00.355 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Dec-2024 21:13:01.535 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+19-Dec-2024 21:13:01.772 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.36.Final}
+19-Dec-2024 21:13:01.779 INFO [main] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+19-Dec-2024 21:13:02.261 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+19-Dec-2024 21:13:03.467 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+19-Dec-2024 21:13:04.833 INFO [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+19-Dec-2024 21:13:06.042 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\xworkz_commonModule_osama.xml] has finished in [8,293] ms
+19-Dec-2024 21:13:06.046 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 21:13:06.056 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [11714] milliseconds
+19-Dec-2024 21:15:52.385 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 21:15:52.585 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Dec-2024 21:15:52.610 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [xworkz_commonModule_osama] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Dec-2024 21:15:52.610 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [xworkz_commonModule_osama] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+19-Dec-2024 21:15:52.634 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 21:15:52.694 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 21:15:58.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+19-Dec-2024 21:15:58.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+19-Dec-2024 21:15:58.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+19-Dec-2024 21:15:58.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Dec-2024 21:15:58.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Dec-2024 21:15:58.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Dec-2024 21:15:58.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_261\jre
+19-Dec-2024 21:15:58.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_261-b12
+19-Dec-2024 21:15:58.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Dec-2024 21:15:58.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama
+19-Dec-2024 21:15:58.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+19-Dec-2024 21:15:58.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+19-Dec-2024 21:15:58.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama
+19-Dec-2024 21:15:58.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\temp
+19-Dec-2024 21:15:58.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\logging.properties
+19-Dec-2024 21:15:58.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Dec-2024 21:15:58.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\lib\idea_rt.jar=58015:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\bin
+19-Dec-2024 21:15:58.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+19-Dec-2024 21:15:58.383 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+19-Dec-2024 21:15:58.383 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+19-Dec-2024 21:15:58.383 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+19-Dec-2024 21:15:58.389 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+19-Dec-2024 21:15:59.013 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 21:15:59.362 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1330] milliseconds
+19-Dec-2024 21:15:59.403 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Dec-2024 21:15:59.404 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+19-Dec-2024 21:15:59.417 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\Spring1.xml]
+19-Dec-2024 21:16:01.345 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Dec-2024 21:16:01.527 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+19-Dec-2024 21:16:02.428 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 900 ms
+19-Dec-2024 21:16:02.443 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\Spring1.xml] has finished in [3,025] ms
+19-Dec-2024 21:16:02.443 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\xworkz_commonModule_osama.xml]
+19-Dec-2024 21:16:05.208 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Dec-2024 21:16:06.487 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+19-Dec-2024 21:16:06.714 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.36.Final}
+19-Dec-2024 21:16:06.720 INFO [main] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+19-Dec-2024 21:16:07.177 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+19-Dec-2024 21:16:08.352 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+19-Dec-2024 21:16:09.692 INFO [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+19-Dec-2024 21:16:10.544 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\xworkz_commonModule_osama.xml] has finished in [8,101] ms
+19-Dec-2024 21:16:10.548 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 21:16:10.559 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [11196] milliseconds
+19-Dec-2024 21:18:42.560 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 21:18:42.732 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Dec-2024 21:18:42.745 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [xworkz_commonModule_osama] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Dec-2024 21:18:42.745 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [xworkz_commonModule_osama] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+19-Dec-2024 21:18:42.758 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 21:18:42.778 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 21:18:47.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+19-Dec-2024 21:18:47.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+19-Dec-2024 21:18:47.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+19-Dec-2024 21:18:47.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Dec-2024 21:18:47.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Dec-2024 21:18:47.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Dec-2024 21:18:47.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_261\jre
+19-Dec-2024 21:18:47.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_261-b12
+19-Dec-2024 21:18:47.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Dec-2024 21:18:47.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama
+19-Dec-2024 21:18:47.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+19-Dec-2024 21:18:47.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+19-Dec-2024 21:18:47.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama
+19-Dec-2024 21:18:47.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\temp
+19-Dec-2024 21:18:47.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\logging.properties
+19-Dec-2024 21:18:47.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Dec-2024 21:18:47.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\lib\idea_rt.jar=58125:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\bin
+19-Dec-2024 21:18:47.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+19-Dec-2024 21:18:47.842 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+19-Dec-2024 21:18:47.842 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+19-Dec-2024 21:18:47.842 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+19-Dec-2024 21:18:47.849 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+19-Dec-2024 21:18:48.347 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 21:18:48.664 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1161] milliseconds
+19-Dec-2024 21:18:48.700 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Dec-2024 21:18:48.700 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+19-Dec-2024 21:18:48.716 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\Spring1.xml]
+19-Dec-2024 21:18:50.498 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Dec-2024 21:18:50.681 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+19-Dec-2024 21:18:51.564 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 883 ms
+19-Dec-2024 21:18:51.578 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\Spring1.xml] has finished in [2,861] ms
+19-Dec-2024 21:18:51.578 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\xworkz_commonModule_osama.xml]
+19-Dec-2024 21:18:54.302 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Dec-2024 21:18:55.519 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+19-Dec-2024 21:18:55.733 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.36.Final}
+19-Dec-2024 21:18:55.738 INFO [main] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+19-Dec-2024 21:18:56.207 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+19-Dec-2024 21:18:57.353 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+19-Dec-2024 21:18:58.693 INFO [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+19-Dec-2024 21:18:59.616 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\xworkz_commonModule_osama\conf\Catalina\localhost\xworkz_commonModule_osama.xml] has finished in [8,038] ms
+19-Dec-2024 21:18:59.620 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 21:18:59.632 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10967] milliseconds
+19-Dec-2024 21:27:26.260 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 21:27:26.447 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Dec-2024 21:27:26.467 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [xworkz_commonModule_osama] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Dec-2024 21:27:26.468 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [xworkz_commonModule_osama] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+19-Dec-2024 21:27:26.483 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-2004"]
+19-Dec-2024 21:27:26.493 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-2004"]
