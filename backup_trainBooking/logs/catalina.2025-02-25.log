@@ -1,0 +1,684 @@
+25-Feb-2025 17:10:35.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+25-Feb-2025 17:10:35.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+25-Feb-2025 17:10:35.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+25-Feb-2025 17:10:35.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Feb-2025 17:10:35.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Feb-2025 17:10:35.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Feb-2025 17:10:35.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_261\jre
+25-Feb-2025 17:10:35.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_261-b12
+25-Feb-2025 17:10:35.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Feb-2025 17:10:35.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\MUJAHID\IdeaProjects\backup_trainBooking
+25-Feb-2025 17:10:35.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+25-Feb-2025 17:10:35.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+25-Feb-2025 17:10:35.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\MUJAHID\IdeaProjects\backup_trainBooking
+25-Feb-2025 17:10:35.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\temp
+25-Feb-2025 17:10:35.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\logging.properties
+25-Feb-2025 17:10:35.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Feb-2025 17:10:35.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\lib\idea_rt.jar=53037:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\bin
+25-Feb-2025 17:10:35.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+25-Feb-2025 17:10:35.079 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+25-Feb-2025 17:10:35.079 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Feb-2025 17:10:35.079 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+25-Feb-2025 17:10:35.097 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+25-Feb-2025 17:10:35.671 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 17:10:36.034 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1262] milliseconds
+25-Feb-2025 17:10:36.069 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Feb-2025 17:10:36.069 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+25-Feb-2025 17:10:36.084 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\backup_trainBooking.xml]
+25-Feb-2025 17:10:39.467 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Feb-2025 17:10:39.704 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+25-Feb-2025 17:10:41.042 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: trainForm
+	...]
+25-Feb-2025 17:10:41.291 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.36.Final}
+25-Feb-2025 17:10:41.295 INFO [main] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+25-Feb-2025 17:10:41.744 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+25-Feb-2025 17:10:42.104 WARN [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+25-Feb-2025 17:10:42.113 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/trainbookdb]
+25-Feb-2025 17:10:42.114 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=root, password=****}
+25-Feb-2025 17:10:42.115 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+25-Feb-2025 17:10:42.121 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+25-Feb-2025 17:10:43.021 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+25-Feb-2025 17:10:44.700 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 4996 ms
+25-Feb-2025 17:10:44.716 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\backup_trainBooking.xml] has finished in [8,632] ms
+25-Feb-2025 17:10:44.716 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\Spring1.xml]
+25-Feb-2025 17:10:45.970 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Feb-2025 17:10:46.118 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+25-Feb-2025 17:10:49.921 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 3802 ms
+25-Feb-2025 17:10:49.935 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\Spring1.xml] has finished in [5,218] ms
+25-Feb-2025 17:10:49.951 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 17:10:49.988 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [13953] milliseconds
+25-Feb-2025 17:22:11.288 WARNING [http-nio-8080-exec-10] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for GET /backup_trainBooking/getAll
+25-Feb-2025 17:23:06.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+25-Feb-2025 17:23:06.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+25-Feb-2025 17:23:06.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+25-Feb-2025 17:23:06.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Feb-2025 17:23:06.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Feb-2025 17:23:06.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Feb-2025 17:23:06.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_261\jre
+25-Feb-2025 17:23:06.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_261-b12
+25-Feb-2025 17:23:06.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Feb-2025 17:23:06.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\MUJAHID\IdeaProjects\backup_trainBooking
+25-Feb-2025 17:23:06.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+25-Feb-2025 17:23:06.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+25-Feb-2025 17:23:06.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\MUJAHID\IdeaProjects\backup_trainBooking
+25-Feb-2025 17:23:06.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\temp
+25-Feb-2025 17:23:06.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\logging.properties
+25-Feb-2025 17:23:06.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Feb-2025 17:23:06.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\lib\idea_rt.jar=53409:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\bin
+25-Feb-2025 17:23:06.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+25-Feb-2025 17:23:06.221 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+25-Feb-2025 17:23:06.222 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Feb-2025 17:23:06.222 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+25-Feb-2025 17:23:06.235 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+25-Feb-2025 17:23:06.735 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 17:23:07.036 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1042)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1057)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at sun.nio.ch.Net.bind0(Native Method)
+		at sun.nio.ch.Net.bind(Net.java:444)
+		at sun.nio.ch.Net.bind(Net.java:436)
+		at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+		at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:228)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:211)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1141)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1154)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1039)
+		... 13 more
+25-Feb-2025 17:23:07.037 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1112] milliseconds
+25-Feb-2025 17:23:07.069 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Feb-2025 17:23:07.070 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+25-Feb-2025 17:23:07.083 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\backup_trainBooking.xml]
+25-Feb-2025 17:23:10.769 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Feb-2025 17:23:10.869 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/backup_trainBooking]
+25-Feb-2025 17:23:10.911 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [backup_trainBooking] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Feb-2025 17:23:10.912 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [backup_trainBooking] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+25-Feb-2025 17:23:10.912 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [backup_trainBooking] appears to have started a thread named [pool-1-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+25-Feb-2025 17:23:11.069 SEVERE [Catalina-utility-2] org.apache.catalina.startup.ExpandWar.deleteDir [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\work\Catalina\localhost\backup_trainBooking] could not be completely deleted. The presence of the remaining files may cause problems
+25-Feb-2025 17:23:11.070 SEVERE [Catalina-utility-2] org.apache.catalina.startup.ExpandWar.delete [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\work\Catalina\localhost\backup_trainBooking] could not be completely deleted. The presence of the remaining files may cause problems
+25-Feb-2025 17:23:11.119 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+25-Feb-2025 17:23:11.536 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\backup_trainBooking.xml]
+25-Feb-2025 17:23:13.666 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1385)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1038)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+25-Feb-2025 17:23:14.557 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: trainForm
+	...]
+25-Feb-2025 17:23:15.036 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.36.Final}
+25-Feb-2025 17:23:15.041 INFO [main] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+25-Feb-2025 17:23:15.820 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+25-Feb-2025 17:23:16.612 WARN [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+25-Feb-2025 17:23:16.625 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/trainbookdb]
+25-Feb-2025 17:23:16.626 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=root, password=****}
+25-Feb-2025 17:23:16.627 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+25-Feb-2025 17:23:16.636 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+25-Feb-2025 17:23:18.298 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+25-Feb-2025 17:23:21.382 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 10262 ms
+25-Feb-2025 17:23:21.408 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\backup_trainBooking.xml] has finished in [14,323] ms
+25-Feb-2025 17:23:21.408 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\Spring1.xml]
+25-Feb-2025 17:23:21.466 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Feb-2025 17:23:22.122 INFO [Catalina-utility-2] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+25-Feb-2025 17:23:23.200 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Feb-2025 17:23:23.418 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+25-Feb-2025 17:23:23.993 INFO [Catalina-utility-2] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: trainForm
+	...]
+25-Feb-2025 17:23:24.297 INFO [Catalina-utility-2] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.36.Final}
+25-Feb-2025 17:23:24.304 INFO [Catalina-utility-2] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+25-Feb-2025 17:23:24.381 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 962 ms
+25-Feb-2025 17:23:24.384 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\Spring1.xml] has finished in [2,975] ms
+25-Feb-2025 17:23:24.388 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [17349] milliseconds
+25-Feb-2025 17:23:24.389 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: JVM_Bind
+		at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:102)
+		at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:513)
+		at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:180)
+		at java.net.ServerSocket.bind(ServerSocket.java:375)
+		at java.net.ServerSocket.<init>(ServerSocket.java:237)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:584)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:864)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:810)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+25-Feb-2025 17:23:24.389 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 17:23:24.389 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Feb-2025 17:23:24.400 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [backup_trainBooking] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Feb-2025 17:23:24.401 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [backup_trainBooking] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+25-Feb-2025 17:23:24.402 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [backup_trainBooking] appears to have started a thread named [pool-1-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+25-Feb-2025 17:23:24.418 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 17:23:24.418 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 17:23:25.085 INFO [Catalina-utility-2] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+25-Feb-2025 17:23:25.589 WARN [Catalina-utility-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+25-Feb-2025 17:23:25.600 INFO [Catalina-utility-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/trainbookdb]
+25-Feb-2025 17:23:25.600 INFO [Catalina-utility-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=root, password=****}
+25-Feb-2025 17:23:25.601 INFO [Catalina-utility-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+25-Feb-2025 17:23:25.609 INFO [Catalina-utility-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+25-Feb-2025 17:23:26.164 INFO [Catalina-utility-2] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+25-Feb-2025 17:23:26.679 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1385)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1038)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+25-Feb-2025 17:23:28.301 INFO [Catalina-utility-2] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 6179 ms
+25-Feb-2025 17:23:28.305 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\backup_trainBooking.xml] has finished in [16,770] ms
+25-Feb-2025 17:23:30.516 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 17:23:30.712 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Feb-2025 17:23:30.723 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [backup_trainBooking] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Feb-2025 17:23:30.723 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [backup_trainBooking] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+25-Feb-2025 17:23:30.724 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [backup_trainBooking] appears to have started a thread named [pool-2-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+25-Feb-2025 17:23:30.751 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 17:23:30.763 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 17:24:00.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+25-Feb-2025 17:24:00.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+25-Feb-2025 17:24:00.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+25-Feb-2025 17:24:00.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Feb-2025 17:24:00.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Feb-2025 17:24:00.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Feb-2025 17:24:00.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_261\jre
+25-Feb-2025 17:24:00.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_261-b12
+25-Feb-2025 17:24:00.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Feb-2025 17:24:00.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\MUJAHID\IdeaProjects\backup_trainBooking
+25-Feb-2025 17:24:00.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+25-Feb-2025 17:24:00.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+25-Feb-2025 17:24:00.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\MUJAHID\IdeaProjects\backup_trainBooking
+25-Feb-2025 17:24:00.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\temp
+25-Feb-2025 17:24:00.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\logging.properties
+25-Feb-2025 17:24:00.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Feb-2025 17:24:00.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\lib\idea_rt.jar=53419:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\bin
+25-Feb-2025 17:24:00.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+25-Feb-2025 17:24:00.991 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+25-Feb-2025 17:24:00.991 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Feb-2025 17:24:00.991 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+25-Feb-2025 17:24:00.998 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+25-Feb-2025 17:24:01.572 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 17:24:01.878 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1244] milliseconds
+25-Feb-2025 17:24:01.915 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Feb-2025 17:24:01.916 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+25-Feb-2025 17:24:01.928 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\backup_trainBooking.xml]
+25-Feb-2025 17:24:05.056 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Feb-2025 17:24:05.280 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+25-Feb-2025 17:24:06.384 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: trainForm
+	...]
+25-Feb-2025 17:24:06.569 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.36.Final}
+25-Feb-2025 17:24:06.572 INFO [main] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+25-Feb-2025 17:24:07.004 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+25-Feb-2025 17:24:07.333 WARN [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+25-Feb-2025 17:24:07.343 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/trainbookdb]
+25-Feb-2025 17:24:07.344 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=root, password=****}
+25-Feb-2025 17:24:07.345 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+25-Feb-2025 17:24:07.350 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+25-Feb-2025 17:24:08.182 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+25-Feb-2025 17:24:09.794 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 4514 ms
+25-Feb-2025 17:24:09.806 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\backup_trainBooking.xml] has finished in [7,877] ms
+25-Feb-2025 17:24:09.806 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\Spring1.xml]
+25-Feb-2025 17:24:10.955 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Feb-2025 17:24:11.109 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+25-Feb-2025 17:24:12.066 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 957 ms
+25-Feb-2025 17:24:12.067 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\Spring1.xml] has finished in [2,261] ms
+25-Feb-2025 17:24:12.070 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 17:24:12.086 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10207] milliseconds
+25-Feb-2025 17:24:35.980 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 17:24:36.211 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Feb-2025 17:24:36.227 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [backup_trainBooking] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Feb-2025 17:24:36.227 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [backup_trainBooking] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+25-Feb-2025 17:24:36.227 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [backup_trainBooking] appears to have started a thread named [pool-1-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+25-Feb-2025 17:24:36.244 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 17:24:36.275 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 17:57:47.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+25-Feb-2025 17:57:47.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+25-Feb-2025 17:57:47.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+25-Feb-2025 17:57:47.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Feb-2025 17:57:47.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Feb-2025 17:57:47.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Feb-2025 17:57:47.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_261\jre
+25-Feb-2025 17:57:47.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_261-b12
+25-Feb-2025 17:57:47.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Feb-2025 17:57:47.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\MUJAHID\IdeaProjects\backup_trainBooking
+25-Feb-2025 17:57:47.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+25-Feb-2025 17:57:47.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+25-Feb-2025 17:57:47.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\MUJAHID\IdeaProjects\backup_trainBooking
+25-Feb-2025 17:57:47.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\temp
+25-Feb-2025 17:57:47.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\logging.properties
+25-Feb-2025 17:57:47.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Feb-2025 17:57:47.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\lib\idea_rt.jar=53567:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\bin
+25-Feb-2025 17:57:47.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+25-Feb-2025 17:57:47.488 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+25-Feb-2025 17:57:47.488 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Feb-2025 17:57:47.488 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+25-Feb-2025 17:57:47.494 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+25-Feb-2025 17:57:48.003 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 17:57:48.320 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1103] milliseconds
+25-Feb-2025 17:57:48.357 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Feb-2025 17:57:48.357 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+25-Feb-2025 17:57:48.373 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\backup_trainBooking.xml]
+25-Feb-2025 17:57:51.794 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Feb-2025 17:57:52.040 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+25-Feb-2025 17:57:53.177 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: trainForm
+	...]
+25-Feb-2025 17:57:53.363 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.36.Final}
+25-Feb-2025 17:57:53.366 INFO [main] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+25-Feb-2025 17:57:53.821 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+25-Feb-2025 17:57:54.141 WARN [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+25-Feb-2025 17:57:54.152 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/trainbookdb]
+25-Feb-2025 17:57:54.153 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=root, password=****}
+25-Feb-2025 17:57:54.153 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+25-Feb-2025 17:57:54.158 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+25-Feb-2025 17:57:55.116 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+25-Feb-2025 17:57:56.522 INFO [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+25-Feb-2025 17:57:57.080 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 5040 ms
+25-Feb-2025 17:57:57.094 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\backup_trainBooking.xml] has finished in [8,720] ms
+25-Feb-2025 17:57:57.094 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\Spring1.xml]
+25-Feb-2025 17:57:58.269 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Feb-2025 17:57:58.439 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+25-Feb-2025 17:57:59.178 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 739 ms
+25-Feb-2025 17:57:59.179 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\Spring1.xml] has finished in [2,085] ms
+25-Feb-2025 17:57:59.182 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 17:57:59.189 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10869] milliseconds
+25-Feb-2025 18:10:31.775 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 18:10:31.958 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Feb-2025 18:10:31.978 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [backup_trainBooking] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Feb-2025 18:10:31.979 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [backup_trainBooking] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+25-Feb-2025 18:10:31.980 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [backup_trainBooking] appears to have started a thread named [pool-1-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+25-Feb-2025 18:10:32.004 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 18:10:32.065 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 18:10:38.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+25-Feb-2025 18:10:38.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+25-Feb-2025 18:10:38.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+25-Feb-2025 18:10:38.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Feb-2025 18:10:38.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Feb-2025 18:10:38.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Feb-2025 18:10:38.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_261\jre
+25-Feb-2025 18:10:38.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_261-b12
+25-Feb-2025 18:10:38.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Feb-2025 18:10:38.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\MUJAHID\IdeaProjects\backup_trainBooking
+25-Feb-2025 18:10:38.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+25-Feb-2025 18:10:38.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+25-Feb-2025 18:10:38.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\MUJAHID\IdeaProjects\backup_trainBooking
+25-Feb-2025 18:10:38.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\temp
+25-Feb-2025 18:10:38.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\logging.properties
+25-Feb-2025 18:10:38.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Feb-2025 18:10:38.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\lib\idea_rt.jar=53617:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\bin
+25-Feb-2025 18:10:38.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+25-Feb-2025 18:10:38.472 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+25-Feb-2025 18:10:38.473 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Feb-2025 18:10:38.473 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+25-Feb-2025 18:10:38.478 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+25-Feb-2025 18:10:38.990 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 18:10:39.296 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1146] milliseconds
+25-Feb-2025 18:10:39.332 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Feb-2025 18:10:39.333 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+25-Feb-2025 18:10:39.345 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\backup_trainBooking.xml]
+25-Feb-2025 18:10:42.759 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Feb-2025 18:10:42.987 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+25-Feb-2025 18:10:44.073 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: trainForm
+	...]
+25-Feb-2025 18:10:44.317 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.36.Final}
+25-Feb-2025 18:10:44.321 INFO [main] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+25-Feb-2025 18:10:44.747 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+25-Feb-2025 18:10:45.105 WARN [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+25-Feb-2025 18:10:45.114 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/trainbookdb]
+25-Feb-2025 18:10:45.115 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=root, password=****}
+25-Feb-2025 18:10:45.116 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+25-Feb-2025 18:10:45.121 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+25-Feb-2025 18:10:45.941 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+25-Feb-2025 18:10:47.236 INFO [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+25-Feb-2025 18:10:47.802 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 4815 ms
+25-Feb-2025 18:10:47.814 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\backup_trainBooking.xml] has finished in [8,469] ms
+25-Feb-2025 18:10:47.815 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\Spring1.xml]
+25-Feb-2025 18:10:48.933 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Feb-2025 18:10:49.072 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+25-Feb-2025 18:10:49.734 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 662 ms
+25-Feb-2025 18:10:49.737 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\Spring1.xml] has finished in [1,922] ms
+25-Feb-2025 18:10:49.741 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 18:10:49.748 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10451] milliseconds
+25-Feb-2025 18:23:18.567 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 18:23:18.725 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Feb-2025 18:23:18.737 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [backup_trainBooking] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Feb-2025 18:23:18.738 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [backup_trainBooking] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+25-Feb-2025 18:23:18.738 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [backup_trainBooking] appears to have started a thread named [pool-1-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+25-Feb-2025 18:23:18.751 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 18:23:18.773 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 19:25:05.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+25-Feb-2025 19:25:05.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+25-Feb-2025 19:25:05.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+25-Feb-2025 19:25:05.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Feb-2025 19:25:05.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Feb-2025 19:25:05.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Feb-2025 19:25:05.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_261\jre
+25-Feb-2025 19:25:05.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_261-b12
+25-Feb-2025 19:25:05.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Feb-2025 19:25:05.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\MUJAHID\IdeaProjects\backup_trainBooking
+25-Feb-2025 19:25:05.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+25-Feb-2025 19:25:05.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+25-Feb-2025 19:25:05.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\MUJAHID\IdeaProjects\backup_trainBooking
+25-Feb-2025 19:25:05.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\temp
+25-Feb-2025 19:25:05.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\logging.properties
+25-Feb-2025 19:25:05.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Feb-2025 19:25:05.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\lib\idea_rt.jar=53787:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\bin
+25-Feb-2025 19:25:05.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+25-Feb-2025 19:25:05.102 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+25-Feb-2025 19:25:05.102 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Feb-2025 19:25:05.102 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+25-Feb-2025 19:25:05.110 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+25-Feb-2025 19:25:05.639 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 19:25:05.961 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1190] milliseconds
+25-Feb-2025 19:25:05.996 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Feb-2025 19:25:05.996 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+25-Feb-2025 19:25:06.010 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\backup_trainBooking.xml]
+25-Feb-2025 19:25:09.370 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Feb-2025 19:25:09.587 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+25-Feb-2025 19:25:10.677 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: trainForm
+	...]
+25-Feb-2025 19:25:10.872 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.36.Final}
+25-Feb-2025 19:25:10.875 INFO [main] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+25-Feb-2025 19:25:11.325 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+25-Feb-2025 19:25:11.673 WARN [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+25-Feb-2025 19:25:11.682 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/trainbookdb]
+25-Feb-2025 19:25:11.683 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=root, password=****}
+25-Feb-2025 19:25:11.684 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+25-Feb-2025 19:25:11.689 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+25-Feb-2025 19:25:12.549 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+25-Feb-2025 19:25:13.881 INFO [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+25-Feb-2025 19:25:14.478 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 4890 ms
+25-Feb-2025 19:25:14.492 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\backup_trainBooking.xml] has finished in [8,481] ms
+25-Feb-2025 19:25:14.492 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\Spring1.xml]
+25-Feb-2025 19:25:15.564 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Feb-2025 19:25:15.720 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+25-Feb-2025 19:25:16.577 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 857 ms
+25-Feb-2025 19:25:16.581 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\Spring1.xml] has finished in [2,089] ms
+25-Feb-2025 19:25:16.584 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 19:25:16.592 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10631] milliseconds
+25-Feb-2025 19:29:55.544 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 19:29:55.743 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Feb-2025 19:29:55.774 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [backup_trainBooking] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Feb-2025 19:29:55.775 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [backup_trainBooking] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+25-Feb-2025 19:29:55.776 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [backup_trainBooking] appears to have started a thread named [pool-1-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+25-Feb-2025 19:29:55.792 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 19:29:55.811 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 19:30:02.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+25-Feb-2025 19:30:02.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+25-Feb-2025 19:30:02.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+25-Feb-2025 19:30:02.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Feb-2025 19:30:02.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Feb-2025 19:30:02.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Feb-2025 19:30:02.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_261\jre
+25-Feb-2025 19:30:02.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_261-b12
+25-Feb-2025 19:30:02.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Feb-2025 19:30:02.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\MUJAHID\IdeaProjects\backup_trainBooking
+25-Feb-2025 19:30:02.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+25-Feb-2025 19:30:02.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+25-Feb-2025 19:30:02.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\MUJAHID\IdeaProjects\backup_trainBooking
+25-Feb-2025 19:30:02.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\temp
+25-Feb-2025 19:30:02.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\logging.properties
+25-Feb-2025 19:30:02.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Feb-2025 19:30:02.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\lib\idea_rt.jar=53817:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\bin
+25-Feb-2025 19:30:02.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+25-Feb-2025 19:30:02.292 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+25-Feb-2025 19:30:02.293 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Feb-2025 19:30:02.293 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+25-Feb-2025 19:30:02.299 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+25-Feb-2025 19:30:02.803 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 19:30:03.122 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1157] milliseconds
+25-Feb-2025 19:30:03.156 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Feb-2025 19:30:03.156 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+25-Feb-2025 19:30:03.168 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\backup_trainBooking.xml]
+25-Feb-2025 19:30:06.321 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Feb-2025 19:30:06.524 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+25-Feb-2025 19:30:07.835 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: trainForm
+	...]
+25-Feb-2025 19:30:08.041 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.36.Final}
+25-Feb-2025 19:30:08.047 INFO [main] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+25-Feb-2025 19:30:08.517 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+25-Feb-2025 19:30:08.869 WARN [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+25-Feb-2025 19:30:08.881 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/trainbookdb]
+25-Feb-2025 19:30:08.882 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=root, password=****}
+25-Feb-2025 19:30:08.883 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+25-Feb-2025 19:30:08.888 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+25-Feb-2025 19:30:09.768 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+25-Feb-2025 19:30:11.117 INFO [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+25-Feb-2025 19:30:11.728 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 5204 ms
+25-Feb-2025 19:30:11.739 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\backup_trainBooking.xml] has finished in [8,571] ms
+25-Feb-2025 19:30:11.740 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\Spring1.xml]
+25-Feb-2025 19:30:12.888 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Feb-2025 19:30:13.046 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+25-Feb-2025 19:30:13.810 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 763 ms
+25-Feb-2025 19:30:13.812 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\Spring1.xml] has finished in [2,072] ms
+25-Feb-2025 19:30:13.816 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 19:30:13.825 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10703] milliseconds
+25-Feb-2025 19:51:09.032 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 19:51:09.599 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Feb-2025 19:51:09.694 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [backup_trainBooking] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Feb-2025 19:51:09.694 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [backup_trainBooking] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+25-Feb-2025 19:51:09.694 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [backup_trainBooking] appears to have started a thread named [pool-1-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+25-Feb-2025 19:51:09.855 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 19:51:09.907 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 19:51:17.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.38
+25-Feb-2025 19:51:17.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 08:20:30 UTC
+25-Feb-2025 19:51:17.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.38.0
+25-Feb-2025 19:51:17.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Feb-2025 19:51:17.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Feb-2025 19:51:17.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Feb-2025 19:51:17.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_261\jre
+25-Feb-2025 19:51:17.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_261-b12
+25-Feb-2025 19:51:17.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Feb-2025 19:51:17.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\MUJAHID\IdeaProjects\backup_trainBooking
+25-Feb-2025 19:51:17.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+25-Feb-2025 19:51:17.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\MUJAHID\Downloads\tomcat-1\apache-tomcat-9.0.38
+25-Feb-2025 19:51:17.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\MUJAHID\IdeaProjects\backup_trainBooking
+25-Feb-2025 19:51:17.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\temp
+25-Feb-2025 19:51:17.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\logging.properties
+25-Feb-2025 19:51:17.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Feb-2025 19:51:17.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\lib\idea_rt.jar=54136:C:\Users\MUJAHID\Downloads\ideaIC-2024.1.4.win\bin
+25-Feb-2025 19:51:17.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+25-Feb-2025 19:51:17.144 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+25-Feb-2025 19:51:17.145 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Feb-2025 19:51:17.145 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+25-Feb-2025 19:51:17.162 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+25-Feb-2025 19:51:17.679 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 19:51:18.001 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1174] milliseconds
+25-Feb-2025 19:51:18.038 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Feb-2025 19:51:18.039 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+25-Feb-2025 19:51:18.051 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\backup_trainBooking.xml]
+25-Feb-2025 19:51:21.381 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Feb-2025 19:51:21.739 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+25-Feb-2025 19:51:23.117 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: trainForm
+	...]
+25-Feb-2025 19:51:23.405 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.36.Final}
+25-Feb-2025 19:51:23.409 INFO [main] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+25-Feb-2025 19:51:23.983 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+25-Feb-2025 19:51:24.343 WARN [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+25-Feb-2025 19:51:24.353 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/trainbookdb]
+25-Feb-2025 19:51:24.353 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=root, password=****}
+25-Feb-2025 19:51:24.354 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+25-Feb-2025 19:51:24.360 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+25-Feb-2025 19:51:25.363 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+25-Feb-2025 19:51:26.815 INFO [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+25-Feb-2025 19:51:27.401 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 5661 ms
+25-Feb-2025 19:51:27.417 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\backup_trainBooking.xml] has finished in [9,365] ms
+25-Feb-2025 19:51:27.417 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\Spring1.xml]
+25-Feb-2025 19:51:28.571 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Feb-2025 19:51:28.893 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+25-Feb-2025 19:51:29.597 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 699 ms
+25-Feb-2025 19:51:29.599 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\MUJAHID\IdeaProjects\backup_trainBooking\conf\Catalina\localhost\Spring1.xml] has finished in [2,182] ms
+25-Feb-2025 19:51:29.602 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 19:51:29.631 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [11629] milliseconds
+25-Feb-2025 19:55:57.626 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 19:55:58.134 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Feb-2025 19:55:58.198 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [backup_trainBooking] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Feb-2025 19:55:58.198 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [backup_trainBooking] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+25-Feb-2025 19:55:58.198 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [backup_trainBooking] appears to have started a thread named [pool-1-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+25-Feb-2025 19:55:58.291 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Feb-2025 19:55:58.313 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
