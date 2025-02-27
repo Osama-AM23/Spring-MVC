@@ -57,9 +57,13 @@ public class UserFormServiceImpl implements UserFormService {
     }
 
     @Override
-    public UserFormEntity findById(Integer id) {
-        System.out.println("Service :" + formRepository.findById(id));
-        return formRepository.findById(id);
+    public UserFormDto findById(Integer id) {
+        UserFormDto userFormDto = new UserFormDto();
+        UserFormEntity formEntity = formRepository.findById(id);
+
+        BeanUtils.copyProperties(formEntity,userFormDto );
+        System.out.println("SERVICE :"+formEntity);
+        return userFormDto;
     }
 
     @Override

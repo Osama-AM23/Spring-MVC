@@ -13,7 +13,7 @@ public interface UserFormService {
 
     void deleteUserById(int id);
 
-    UserFormEntity findById(Integer id);
+    UserFormDto findById(Integer id);
 
     boolean updateUser(UserFormDto userFormDto);
 }

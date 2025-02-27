@@ -55,9 +55,9 @@ public class UserFormController {
     // getting the data from DB
     @RequestMapping("editUser")
     public String findById(@RequestParam("id") int id, Model model){
-        UserFormEntity entity=userFormService.findById(id);
-        System.out.println("Controller :"+entity);
-        model.addAttribute("item",entity);
+        UserFormDto userFormDto=userFormService.findById(id);
+        System.out.println("Controller :"+userFormDto);
+        model.addAttribute("item",userFormDto);
         return "updatePage.jsp";
     }
 
